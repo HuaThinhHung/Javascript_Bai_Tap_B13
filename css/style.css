@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #6EE7B7, #3B82F6);
+}
+
+button {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #1D4ED8;
+  transform: translateY(-2px);
+}
+
+input, select {
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+  border-color: #38B2AC;
+  box-shadow: 0 0 5px rgba(72, 190, 153, 0.6);
+}
+
+h2, h1 {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  color: #38B2AC;
+}
